@@ -7,6 +7,7 @@
   background: #1f7bff55 ;
   backdrop-filter: blur(3px);
   transition: opacity 500ms;
+  z-index: 100;
 }
 
 .bapup {
