@@ -1,0 +1,110 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1f7bff55 ;
+  backdrop-filter: blur(3px);
+  transition: opacity 500ms;
+}
+
+.popup {
+  margin: 60px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+} 
+.popup .content {
+  max-height: 60%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+    
+ .btm {
+  height: 45px;
+  width: 90px;   
+  padding:10px 20px;
+  justify-content: center;
+  align-items:center;
+  border: 2px solid #64b4f67b;
+  border-radius: 5px;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+  text-decoration: none;
+  margin:3px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,     rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  
+ .btm:hover {
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+     
+  
+ .btm1 {
+  background-color:#a20021;
+  color:white; 
+  left:0px; 
+}
+ 
+.btm1:hover {
+ background-color:#007202; 
+ cursor: pointer;
+ color:White;
+}
+
+.btm2 {
+  background-color: #0057cd;
+  color:white; 
+  align-items: bottom; 
+}
+ 
+.btm2:hover {
+ background-color: #007202; 
+ cursor: pointer;
+ color:White;
+}
+
+.btm3 {
+  background-color:#df0089;
+  color:white;
+  right:0%;
+  
+ 
+}
+ 
+.btm3:hover {
+ background-color: #007202; 
+ cursor: pointer;
+ color:White;
+}
+.btm4 {
+  background-color:grey;
+  color:white;
+  left:0%;
+  font-size:18px;
+ 
+}
+ 
+.btm4:hover {
+ background-color:red; 
+ cursor: pointer;
+ color:White;
+}
