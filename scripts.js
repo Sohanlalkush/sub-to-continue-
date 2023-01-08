@@ -15,7 +15,7 @@
 }
 
 function checkCookie() {
-  let Follow = getCookie("Followed");
+  let Follow = getCookie("followed");
   if (Follow != "") {loloj()
   } else{lolo()
   }
