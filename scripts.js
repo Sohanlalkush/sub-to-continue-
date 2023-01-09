@@ -40,7 +40,7 @@ document.getElementById("cexit").style.opacity = "0";
 }
 
 function confirm(){
-  document.cookie = "followed=yes; expires=Mon, 01 Jan 2024 12:00:00 UTC";
+  document.cookie = "followed=yes; expires=Mon, 01 Jan 2024 12:00:00 UTC; path=/";
   window.location.reload();
 }
 
