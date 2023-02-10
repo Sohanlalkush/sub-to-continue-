@@ -20,13 +20,12 @@ function checkCookie() {
   } else{lolo()
   }
 }
-    window.onscroll = function() {myFunction()};
 
-function myFunction() {
-  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {checkCookie()
-  }
-}
-    
+window.onload = function() {
+  setTimeout(function() {
+    checkCookie()
+  }, 3000);
+};
     
     function loloe(){
 document.getElementById("cexit").style.visibility = "visible";
