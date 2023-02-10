@@ -24,7 +24,7 @@ function checkCookie() {
 window.onload = function() {
   setTimeout(function() {
     checkCookie()
-  }, 3000);
+  }, 300);
 };
     
     function loloe(){
